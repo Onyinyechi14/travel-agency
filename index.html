@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>   
+
+        <div class="navbar">
+          <img src="images/logo-default-208x46.png" alt="">
+          <nav>
+            <ul>
+              <a href="#">HOME</a>
+              <a href="About Us.html">ABOUT US</a>
+              <a href="contact.html">CONTACTS</a>
+              <a href="#">TYPOGRAPHY</a>
+            </ul>
+          </nav>
+          <button class="btn-btn">BOOK A TOUR</button>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators ind">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/boat.avif" class="d-block w-100 pics" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>HUNDREDS OF AMAZING <br> DESTINATION</h5>
+                <p>We offer a variety of destinations to travel to, <br> ranging from exotic to extreme ones. They <br> include very popular countries and cities like Paris, <br>Rio de Janeiro, Cairo and a lot of others .</p>
+                <button>LEARN MORE</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/ocean.avif" class="d-block w-100 pics" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>UNIQUE TRAVEL INSIGHTS</h5>
+                <p>Our team is ready to provide you with unique <br> weekly travel insights that incudes photos, videos <br> and articles about untraveled tourist paths. <br> We know everything about the places you've never been <br> to.</p>
+                <button>LEARN MORE</button>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/tree.avif" class="d-block w-100 pics" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>THE TRIP OF YOUR <br> DREAM</h5>
+                <p>Our travel agency is ready to offer you an exciting <br> vacation that is designed to fit your own needs and <br> wishes. Whether it's an exotic cruise or a trip to your <br> favorite resort, you will surely have the best <br> experience.</p>
+                <button>LEARN MORE</button>
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="row">
+            <form action="" class="form">
+              <h6>FIND YOUR TOUR</h6>
+              <div class="mb-3">
+                <label for="from" class="form-label">From</label>
+                <select class="form-control form-select form-select-lg mb-3" id="from" aria-label=".form-select-lg example">
+                  <option selected>Newyork</option>
+                  <option value="1">Lisbon</option>
+                  <option value="2">Stockholm</option>
+                </select>
+              </div>
+  
+              <div class="mb-3">
+                <label for="to" class="form-label">To</label>
+                <select class="form-control form-select form-select-lg mb-3" id="to" aria-label=".form-select-lg example">
+                  <option selected>Chicago</option>
+                  <option value="1">Maldrid</option>
+                  <option value="2">Paris</option>
+                </select>
+              </div>
+  
+              <div class="row">
+                <div class="mb-3 col-6">
+                  <label for="date" class="form-label">Date</label>
+                  <input type="datetime-local" class="form-control" id="date" placeholder="Date">
+                </div>
+    
+                <div class="mb-3 col-6">
+                  <label for="#">Duration</label>
+                  <select class="form-control form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                  <option selected>Any length</option>
+                  <option value="1">4</option>
+                  <option value="2">3</option>
+                  <option value="3">2</option>
+                  <option value="4">1</option>
+                  </select>
+                </div>
+              </div>
+  
+              <div class="row">
+                <div class="col-6">
+                  <label for="">Adult</label>
+                  <input type="number" name="" class="form-control" id="">
+                </div>
+    
+                <div class="col-6">
+                  <label for="">Children</label>
+                  <input type="number" name="" class="form-control" id="">
+                </div>
+              </div>
+              <button class="form-control Search">Search Flight</button>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="hot">
+          <h2> HOT TOURS </h2>
+          <button class="btn-btn brand">VIEW ALL TOURS</button>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-3">
+              <div class="card">
+                <img src="images/paris.avif" class="card-img-top" alt="...">
+                <div class="card-body cards">
+                  <a href="#" class="bet">France, Paris</a>
+                  <h6>from $280</h6>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-3">
+              <div class="card">
+                <img src="images/boston.avif" class="card-img-top" alt="...">
+                <div class="card-body cards">
+                  <a href="#" class="bet">USA, Boston</a>
+                  <h6>from $480</h6>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-3">
+              <div class="card">
+                <img src="images/italy.avif" class="card-img-top" alt="...">
+                <div class="card-body cards">
+                  <a href="#" class="bet">Italy, Venice</a>
+                  <h6>from $350</h6>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-3">
+              <div class="card">
+                <img src="images/eygpt.avif" class="card-img-top" alt="...">
+                <div class="card-body cards">
+                  <a href="#" class="bet">Spain, Benidorm</a>
+                  <h6>from $350</h6>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-3">
+              <div class="card">
+                <img src="images/spain.avif" class="card-img-top" alt="...">
+                <div class="card-body cards">
+                  <a href="#" class="bet">Egypt, Sharm El Sheikh</a>
+                  <h6>from $520</h6>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-3">
+              <div class="card">
+                <img src="images/uk.avif" class="card-img-top" alt="...">
+                <div class="card-body cards">
+                 <a href="#" class="bet">UK, London</a>
+                 <h6>$600</h6>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Umbrella Section -->
+        <div class="umbrella">
+          <h3>OUR SERVICES</h3>
+          <div class="container">
+            <div class="row not">
+              <div class="col-lg-3">
+                <div class="card head">
+                  <div class="card-header ">
+                    <i class='bx bxs-plane-alt' style='color:#ffa900'  ></i>
+                    Air Tickets
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">At our travel agency, you can book air tickets to any world destination. We also provide online ticket booking via our website in just a couple of steps.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card head">
+                  <div class="card-header">
+                    <i class='bx bx-map-alt' style="color: #ffa900;"></i>
+                    Voyages & Cruises
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Besides regular tours and excursions, we also offer a variety of cruises & sea voyages for different customers looking for awesome experiences.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card head">
+                  <div class="card-header">
+                    <i class='bx bx-buildings'></i>
+                    Hotel Bookings
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">We offer a wide selection of hotel ranging from 5-star ones to small properties located worldwide so that you could book a hotel you like.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3">
+                <div class="card head">
+                  <div class="card-header">
+                    ☂
+                    Tailored Summer Tours
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text">Our agency provides varied tours including tailored summer tours for clients who are searching for an exclusive and memorable vacation.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+
+        <!-- <div>
+          <p style="text-align: center; font-size: 30px;">LATEST NEWS</p>
+        <div class="container last">
+          <div class="row">
+            <div class="col-lg-6">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/new1.avif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/new2.avif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/new3.avif" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/new4.avif" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div> -->
+
+        <div style="background-color: rgb(218, 213, 213);">
+          <p style="text-align: center; padding-top: 40px; ">TESTIMONIALS</p>
+          <span>
+            <img src="images/sade.avif" alt="" style="height: 200px; width: 200px; margin-left: 10%; border-radius: 100px; position: absolute;">
+            <p style="margin-left: 40%; position: relative; ">&#779; <br>I wanted to thank you very much for planning the trip to France for <br>my boyfriend and me. It was amazing and exceeded my expectations! <br>We had a wonderful time and were very pleased with the accommodations <br>in Paris and Bayeux. Our private/small tour guides were fantastic! <br> I appreciate all the effort to get us to the Eiffel Tower finally.
+              <br>
+              <br>
+              <span style="color: blue;">Ann McMillan</span>
+              <br>
+              Regular Customer</p>
+          </span>
+        </div>
+
+
+
+        <div style="background-color: black; margin-top: -10%; padding-left: 3%;">
+          <p style="color: #ffa900; padding-top: 5%;">BUY YOUR TOUR WITHOUT LEAVING YOUR HOME</p>
+          <h6 style="color: #ffffff; margin-top: 3px;">Using our website, you can book any tour just in a couple of clicks.</h6 >
+          <button style="background-color: transparent; border-radius: 15px; color: white;">BOOK NOW</button>
+        </div>
+
+
+
+
+          <footer style="background-color: #0c0c0c; margin-top: 7%; display: flex; justify-content: space-between; height: 60px;">
+            <img src="images/logo-default-208x46.png" alt="">
+            <h6 style="color: #ffffff;">&copy; 2024 All Rights Reserved. Design by TemplateMonster</h6>
+            <span style="margin-right: 5%;">
+              <a href="#"><i class='bx bxl-facebook face' undefined ></i></a>
+              <a href="#"><i class='bx bxl-twitter face' undefined ></i></a>
+              <a href="#"><i class='bx bxl-linkedin face' undefined ></i></a>
+              <a href="#"><i class='bx bxl-instagram face' undefined ></i></a>
+            </span>
+          </footer>
+        
+          
+    
+   
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
